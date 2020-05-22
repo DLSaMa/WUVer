@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "TxtReader"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "SDK whitch is useing for free login."
   spec.description  = <<-DESC
                     一个用来免密登录的sdk ，fuck apple fuck xhm
