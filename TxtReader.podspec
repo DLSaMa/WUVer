@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "TxtReader"
-  spec.version      = "1.0.3"
+  spec.version      = "1.0.4"
   spec.summary      = "SDK whitch is useing for free login."
   spec.description  = <<-DESC
                     一个用来免密登录的sdk ，fuck apple fuck xhm
@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "Qi" => "754854967@qq.com" }
   spec.source       = { :git => "https://github.com/DLSaMa/WUVer.git", :tag => "#{spec.version}" }
   spec.source_files  = "WUSwitch/*"
-  spec.vendored_libraries = "*/WUVerification_release.a"
+  spec.vendored_libraries = "*/libXCLogStaticDemo.a"
   spec.platform       = :ios, '8.0'
 
 end
