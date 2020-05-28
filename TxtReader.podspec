@@ -13,7 +13,8 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/DLSaMa/WUVer.git", :tag => "#{spec.version}" }
   spec.source_files  = "WUSwitch/*"
-  spec.vendored_libraries = "*/libXCLogStaticDemo.a"
+  spec.vendored_libraries = "*/libXCLogStaticDemo.a",
+                            "WUVerification_release.a"
   spec.resource     = "*/wuVerResources.bundle"
 
 
